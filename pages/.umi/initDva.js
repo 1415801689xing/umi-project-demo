@@ -14,4 +14,4 @@ app.use(createLoading());
   app.use(plugin);
 });
 
-app.model({ namespace: 'goods', ...(require('C:/PrivateProjects/UMIJS/models/goods.js').default) });
+

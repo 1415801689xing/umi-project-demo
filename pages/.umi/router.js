@@ -20,7 +20,7 @@ let routes = [
   {
     "path": "/about",
     "component": require('../about').default,
-    "Routes": [require('../../routes/PrivateRoute.js').default],
+    "Routes": [require('../../../routes/PrivateRoute.js').default],
     "exact": true
   },
   {
@@ -38,7 +38,7 @@ let routes = [
         "exact": true
       },
       {
-        "component": () => React.createElement(require('C:/Users/XINGXING/AppData/Local/Yarn/Data/global/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'pages', hasRoutesInConfig: true })
+        "component": () => React.createElement(require('C:/Users/XINGXING/AppData/Local/Yarn/Data/global/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
       }
     ]
   },
@@ -52,7 +52,7 @@ let routes = [
     "exact": true
   },
   {
-    "component": () => React.createElement(require('C:/Users/XINGXING/AppData/Local/Yarn/Data/global/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'pages', hasRoutesInConfig: true })
+    "component": () => React.createElement(require('C:/Users/XINGXING/AppData/Local/Yarn/Data/global/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
   }
 ];
 window.g_routes = routes;
